@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Berita Api - Winnicode</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="icon" href="img/laravel.png" />
+    <style>
+        .card {
+            margin-bottom: 20px;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        .card img {
+            height: 200px;
+            object-fit: cover;
+        }
+        .card-body {
+            flex-grow: 1;
+        }
+        .card-title {
+            font-weight: bold;
+        }
+        .card-text {
+            min-height: 60px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container mt-5">
+    <h1 class="my-4 text-center">Daftar Berita dan Artikel</h1>
+    <div id="beritaContainer" class="row"></div>
+</div>
+
+<script>
+    // Mengambil data dari API
+    fetch('https://winnicode.com/api/berita/json')
+        .then(response => response.json())
+        .then(data => {
+            const beritaContainer = document.getElementById('beritaContainer');
+
+            // Cek apakah ada data
+            if (data.status.includes("Data Berita/Artikel Publikasi") && data["list data"].length > 0) {
+                // Loop melalui setiap berita dan buat elemen card
+                data["list data"].forEach(berita => {
+                    const card = document.createElement('div');
+                    card.className = 'col-md-4 col-sm-6';
+
+                    // Menggunakan URL thumbnail gambar
+                    const gambarUrl = `https://drive.google.com/thumbnail?id=${berita.gambar}&sz=w1000`;
+
+                    card.innerHTML = `
+                        <div class="card shadow-sm">
+                            <img src="${gambarUrl}" class="card-img-top" alt="${berita.judul}">
+                            <div class="card-body">
+                                <h5 class="card-title">${berita.judul}</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">${berita.penulis} | ${berita.kategori}</h6>
+                                <p class="card-text">${berita.deskripsi.replace(/<[^>]*>?/gm, '').substring(0, 100)}...</p>
+                                <a href="berita/${berita.slug}" class="btn btn-primary">Read More</a>
+                            </div>
+                        </div>
+                    `;
+
+                    // Tambahkan kartu ke container
+                    beritaContainer.appendChild(card);
+                });
+            } else {
+                beritaContainer.innerHTML = '<p class="text-center">Tidak ada berita atau artikel yang tersedia.</p>';
+            }
+        })
+        .catch(error => {
+            console.error('Error fetching data:', error);
+            document.getElementById('beritaContainer').innerHTML = '<p class="text-danger">Terjadi kesalahan saat memuat data berita atau artikel.</p>';
+        });
+</script>
+
+</body>
+</html>
