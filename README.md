@@ -1,6 +1,6 @@
 # Api
 
-- [LINK](https://winnicode.com/api/berita/json)
+- [LINK API JSON](https://winnicode.com/api/berita/json)
 
 ### Berita
 
