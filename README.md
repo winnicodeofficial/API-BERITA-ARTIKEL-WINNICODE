@@ -7,4 +7,4 @@
 
 | Nama API           | Pengembang | Dokumentasi                                                               | Status | Autentikasi |
 | ------------------ | ---------- | ------------------------------------------------------------------------- | ------ | ----------- |
-| API Berita/Artikel | Margarets  | [Link](git@github.com:winnicodeofficial/API-BERITA-ARTIKEL-WINNICODE.git) | ✅     | `false`     |
+| API Berita/Artikel | Margarets  | [Link](https://github.com/winnicodeofficial/API-BERITA-ARTIKEL-WINNICODE) | ✅     | `false`     |
