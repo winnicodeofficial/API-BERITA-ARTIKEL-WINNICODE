@@ -1,6 +1,6 @@
-# Daftar API Lokal Indonesia
+# Api
 
-Kumpulan API tentang data dan informasi di Indonesia
+- [LINK](https://winnicode.com/api/berita/json)
 
 ### Berita
 
