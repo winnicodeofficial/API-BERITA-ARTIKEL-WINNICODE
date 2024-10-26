@@ -5,7 +5,7 @@
 # Api Dokumentasi
 
 - Api Berita/Artikel
-- https://winnicode.com/api/berita/json/{api_key}
+- winnicode.com/api/berita/json/{api_key}
 
 - Api Token Akses
 - fd8c60257a217ec139d70d62747e42081eea41aa0bf4e9414fc76ddf2083cfed
