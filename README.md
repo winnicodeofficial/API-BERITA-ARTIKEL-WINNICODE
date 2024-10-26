@@ -12,7 +12,7 @@ Welcome to the official documentation for **Winnicode** APIs, designed to facili
 
 Winnicode provides access to news and article data through its API. Below, you’ll find the available endpoints, usage details, and an example link for accessing API responses.
 
-### 📘 API Endpoints
+### 📘 API Endpoints News and Articles
 
 #### 1. News and Articles API
 
@@ -32,7 +32,7 @@ Winnicode provides access to news and article data through its API. Below, you�
 - **[API JSON Data](https://winnicode.com/api/berita/json/fd8c60257a217ec139d70d62747e42081eea41aa0bf4e9414fc76ddf2083cfed)**
 - **[Example Fetch Implementation](https://api-berita.winnicode.com)**
 
-### 🔎 API Overview: Berita
+### 🔎 API Overview
 
 | API Name          | Developer | Documentation Link                                                                  | Status | Authentication |
 | ----------------- | --------- | ----------------------------------------------------------------------------------- | ------ | -------------- |
