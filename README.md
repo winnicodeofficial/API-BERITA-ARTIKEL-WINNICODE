@@ -1,22 +1,54 @@
-# Website Officials
+# 🌐 Website Official: Winnicode
 
-- Winnicode [LINK](https://winnicode.com)
+Welcome to the official documentation for **Winnicode** APIs, designed to facilitate seamless access to news articles and other features of the Winnicode platform.
 
-# Api Dokumentasi
+### 🌍 Website
 
-- Api Berita/Artikel
-- winnicode.com/api/berita/json/{api_key}
+- [Visit Winnicode Official Site](https://winnicode.com)
 
-- Api Token Akses
-- fd8c60257a217ec139d70d62747e42081eea41aa0bf4e9414fc76ddf2083cfed
+---
 
-# Implementasi
+## 📑 API Documentation
 
-- [LINK API JSON](https://winnicode.com/api/berita/json/fd8c60257a217ec139d70d62747e42081eea41aa0bf4e9414fc76ddf2083cfed)
-- [LINK EXAMPLE FETCH](https://api-berita.winnicode.com)
+Winnicode provides access to news and article data through its API. Below, you’ll find the available endpoints, usage details, and an example link for accessing API responses.
 
-### Berita
+### 📘 API Endpoints
 
-| Nama API           | Pengembang | Dokumentasi                                                               | Status | Autentikasi |
-| ------------------ | ---------- | ------------------------------------------------------------------------- | ------ | ----------- |
-| API Berita/Artikel | Margarets  | [Link](https://github.com/winnicodeofficial/API-BERITA-ARTIKEL-WINNICODE) | ✅     | `true`      |
+#### 1. News and Articles API
+
+- **Endpoint**: `https://winnicode.com/api/berita/json/{api_key}`
+- **Description**: Fetches a list of published articles and news.
+
+#### 2. API Access Token
+
+- **Example API Token**: `fd8c60257a217ec139d70d62747e42081eea41aa0bf4e9414fc76ddf2083cfed`
+
+---
+
+## 🚀 Implementation
+
+### Quick Links
+
+- **[API JSON Data](https://winnicode.com/api/berita/json/fd8c60257a217ec139d70d62747e42081eea41aa0bf4e9414fc76ddf2083cfed)**
+- **[Example Fetch Implementation](https://api-berita.winnicode.com)**
+
+### 🔎 API Overview: Berita
+
+| API Name          | Developer | Documentation Link                                                                  | Status | Authentication |
+| ----------------- | --------- | ----------------------------------------------------------------------------------- | ------ | -------------- |
+| News/Articles API | Margarets | [View on GitHub](https://github.com/winnicodeofficial/API-BERITA-ARTIKEL-WINNICODE) | ✅     | `true`         |
+
+---
+
+## 📄 Usage Example
+
+Here’s an example of a fetch request to retrieve data from the Winnicode News API:
+
+```javascript
+fetch(
+  "https://winnicode.com/api/berita/json/fd8c60257a217ec139d70d62747e42081eea41aa0bf4e9414fc76ddf2083cfed"
+)
+  .then((response) => response.json())
+  .then((data) => console.log(data))
+  .catch((error) => console.error("Error:", error));
+```
