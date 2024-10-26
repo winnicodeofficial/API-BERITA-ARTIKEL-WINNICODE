@@ -1,10 +1,10 @@
-# 🌐 Website Official: Winnicode
+# 🌐 Website Official Winnicode
 
 Welcome to the official documentation for **Winnicode** APIs, designed to facilitate seamless access to news articles and other features of the Winnicode platform.
 
 ### 🌍 Website
 
-- [Visit Winnicode Official Site](https://winnicode.com)
+- [Visit Winnicode Official](https://winnicode.com)
 
 ---
 
