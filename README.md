@@ -19,7 +19,7 @@ Winnicode provides access to news and article data through its API. Below, youâ€
 - **Endpoint**:
 
 ```
-`https://winnicode.com/api/berita/json/{api_key}`
+https://winnicode.com/api/berita/json/{api_key}
 ```
 
 #### 2. API Access Token
@@ -27,7 +27,7 @@ Winnicode provides access to news and article data through its API. Below, youâ€
 - **Example API Token**:
 
 ```
-`fd8c60257a217ec139d70d62747e42081eea41aa0bf4e9414fc76ddf2083cfed`
+fd8c60257a217ec139d70d62747e42081eea41aa0bf4e9414fc76ddf2083cfed
 ```
 
 ---
