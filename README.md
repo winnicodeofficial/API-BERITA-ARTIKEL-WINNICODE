@@ -37,6 +37,7 @@ Winnicode provides access to news and article data through its API. Below, you�
 | API Name          | Developer | Documentation Link                                                                  | Status | Authentication |
 | ----------------- | --------- | ----------------------------------------------------------------------------------- | ------ | -------------- |
 | News/Articles API | Margarets | [View on GitHub](https://github.com/winnicodeofficial/API-BERITA-ARTIKEL-WINNICODE) | ✅     | `true`         |
+| Database Pengguna | Margarets | [View on GitHub](https://github.com/winnicodeofficial/API-BERITA-ARTIKEL-WINNICODE) | ✅     | `true lanjut`  |
 
 ---
 
