@@ -41,10 +41,10 @@ Winnicode provides access to news and article data through its API. Below, you�
 
 ### 🔎 API Overview
 
-| API Name          | Developer | API Link                                                        | Status | Authentication |
-| ----------------- | --------- | --------------------------------------------------------------- | ------ | -------------- |
-| News/Articles API | Margarets | [View on API](https://winnicode.com/api/berita/json/{api_key})  | ✅     | `true`         |
-| Database Pengguna | Margarets | [View on API](https://winnicode.com/api/peserta/json/{api_key}) | ✅     | `true lanjut`  |
+| API Name          | Developer | API Link                                                       | Status | Authentication |
+| ----------------- | --------- | -------------------------------------------------------------- | ------ | -------------- |
+| News/Articles API | Margarets | [View on API](https://winnicode.com/api/berita/json/{api_key}) | ✅     | `true`         |
+| Database Pengguna | Margarets | [View on API](https://winnicode.com/api/user/json/{api_key})   | ✅     | `true lanjut`  |
 
 ---
 
