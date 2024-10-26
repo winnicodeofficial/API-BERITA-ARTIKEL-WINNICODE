@@ -1,3 +1,7 @@
+# Website Officials
+
+- Winnicode [LINK](https://winnicode.com)
+
 # Api Dokumentasi
 
 - Api Berita/Artikel
@@ -15,4 +19,4 @@
 
 | Nama API           | Pengembang | Dokumentasi                                                               | Status | Autentikasi |
 | ------------------ | ---------- | ------------------------------------------------------------------------- | ------ | ----------- |
-| API Berita/Artikel | Margarets  | [Link](https://github.com/winnicodeofficial/API-BERITA-ARTIKEL-WINNICODE) | ✅     | `false`     |
+| API Berita/Artikel | Margarets  | [Link](https://github.com/winnicodeofficial/API-BERITA-ARTIKEL-WINNICODE) | ✅     | `true`      |
