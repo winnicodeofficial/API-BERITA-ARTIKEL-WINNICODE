@@ -27,7 +27,7 @@ https://winnicode.com/api/berita/json/{api_key}
 - **Example API Token**:
 
 ```
-fd8c60257a217ec139d70d62747e42081eea41aa0bf4e9414fc76ddf2083cfed
+a42278524bee772194f2ad0e9ac88a5893aa733db4d1c684d89c2dc08b7f718a
 ```
 
 ---
@@ -36,7 +36,7 @@ fd8c60257a217ec139d70d62747e42081eea41aa0bf4e9414fc76ddf2083cfed
 
 ### Quick Links
 
-- **[API JSON Data](https://winnicode.com/api/berita/json/fd8c60257a217ec139d70d62747e42081eea41aa0bf4e9414fc76ddf2083cfed)**
+- **[API JSON Data](https://winnicode.com/api/berita/json/a42278524bee772194f2ad0e9ac88a5893aa733db4d1c684d89c2dc08b7f718a)**
 - **[Example Fetch Implementation](https://api-berita.winnicode.com)**
 
 ### 🔎 API Overview
@@ -54,7 +54,7 @@ Here’s an example of a fetch request to retrieve data from the Winnicode News 
 
 ```javascript
 fetch(
-  "https://winnicode.com/api/berita/json/fd8c60257a217ec139d70d62747e42081eea41aa0bf4e9414fc76ddf2083cfed"
+  "https://winnicode.com/api/berita/json/a42278524bee772194f2ad0e9ac88a5893aa733db4d1c684d89c2dc08b7f718a"
 )
   .then((response) => response.json())
   .then((data) => console.log(data))
